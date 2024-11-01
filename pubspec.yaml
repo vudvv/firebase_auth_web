@@ -9,7 +9,10 @@ environment:
   flutter: '>=3.22.0'
 
 dependencies:
-  firebase_auth_platform_interface: ^7.4.7
+  firebase_auth_platform_interface:
+    git:
+      url: https://github.com/vudvv/firebase_auth_platform_interface.git
+      ref: v7.4.8
   firebase_core:
     git:
       url: https://github.com/vudvv/firebase_core.git
